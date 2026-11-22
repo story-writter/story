@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: #fff;
+}
+
+body {
+  margin: 0;
+  background: #fff;
+  color: #292929;
+  font-family: "Hind Siliguri", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.story-page {
+  width: min(100% - 36px, 760px);
+  margin: 0 auto;
+  padding: 34px 0 60px;
+}
+
+.story-page h1 {
+  margin: 0 0 24px;
+  padding-bottom: 12px;
+  border-bottom: 1px solid #e8e8e8;
+  color: #222;
+  font-family: Arial, sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: -.3px;
+}
+
+.story-content p {
+  margin: 0 0 21px;
+  color: #333;
+  font-family: "Noto Serif Bengali", "Hind Siliguri", serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 2;
+  overflow-wrap: anywhere;
+  white-space: pre-wrap;
+}
+
+.loading {
+  color: #888;
+}
+
+@media (max-width: 600px) {
+  .story-page {
+    width: min(100% - 30px, 760px);
+    padding-top: 24px;
+  }
+
+  .story-page h1 {
+    margin-bottom: 20px;
+    font-size: 23px;
+  }
+
+  .story-content p {
+    margin-bottom: 18px;
+    font-size: 17px;
+    line-height: 1.95;
+  }
+}
